@@ -1,0 +1,26 @@
+# DO NOT EDIT
+!.gitignore
+!README.md
+!apploader.js
+!.env.sample
+!package.json
+
+# EDIT BELOW - comment out environments you want in your project
+
+# local machine 
+!.env.development
+# !.env.secret.development
+
+# server deployment 
+!.env.dev
+# !.env.secret.dev
+# !.env.uat
+# !.env.secret.uat
+# !.env.prd
+# !.env.secret.prd
+
+# EDIT BELOW - comment out folders you want in your project
+!app-auth
+!app-sample
+!app-t4t
+!common

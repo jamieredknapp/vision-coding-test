@@ -1,0 +1,22 @@
+# custom code area - DO NOT EDIT
+apps/*
+
+# build files and packages
+dist
+node_modules
+package-lock.json
+
+# Log files
+npm-debug.log*
+
+# apple stuff
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+
+# tests
+test-results
+playwright-report
+playwright/.cache
